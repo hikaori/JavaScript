@@ -1,1 +1,1 @@
-![UI](https://raw.githubusercontent.com/hikaori/JavaScript/readme_img/Fortune.gif)
+![UI](https://github.com/hikaori/JavaScript/blob/master/Fortune.gif)
