@@ -1,0 +1,26 @@
+@charset "Utf-8";
+
+#elementTxt{
+	margin-top: 10px;
+	background: #ef454f;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    opacity: 0.9; 
+    box-shadow: 0 10px 0 #D1483E;
+    border: 2px solid #f2f2f2;
+    }
+
+ #elementTxt:hover{
+ 	opacity: 1;
+ }
+
+ #elementTxt.pushed{
+ 	margin-top: 20px;
+ 	box-shadow:  0 4px 0 #D1483E;
+ }
