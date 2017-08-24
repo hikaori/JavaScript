@@ -10,7 +10,7 @@
 ## OntimeGAME ##
 * OntimeGAME app
 * this is game app for countting exactry 5 minite. tap start button when you start game then count 5 then tap stop botton.the app tell you the exactry elapsed time.
-    * if your time is less than 1minite different then the app back ground color will be changed.
+    * if your time is less than 1minite different then the app back ground color will be changed.
     
 ## PasswordGenerator ##
 * PasswordGenerator app
@@ -26,7 +26,7 @@
 ## Word Count ##
 * WordCount app
 * this app count the number of your input words.
-    * at same time as counting number of input , show you how many number words left.
+    * at same time as counting number of input , show you how many number words left.
     
     
     
