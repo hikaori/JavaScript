@@ -13,10 +13,13 @@ document.addEventListener('DOMContentLoaded', function(){
 
 	function jumpToLink(){
 		var input = document.getElementById('searchWindow').value;
-		// console.log(input);
-		// console.log(shortWord[input]);
-		// console.log(shortWord.goo);
-		window.location = shortWord[input]
+		if(shortWord[input] != undefined ||shortWord[input] != null){
+			window.location = shortWord[input];
+		}
+		else{
+			window.location = "https://www.google.ca/search?q=" + input;
+		}
+		
 	};
 
 });
