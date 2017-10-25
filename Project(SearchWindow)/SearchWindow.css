@@ -4,7 +4,7 @@ body {
 }
 input#searchWindow {
     width: 50%;
-    height: 10vh;
+    height: 3vh;
     margin: 10px;
 }
 ::-webkit-input-placeholder {
@@ -20,7 +20,7 @@ input#searchWindow {
 }
 button#btn {
     width: 30%;
-    height: 10vh;
+    height: 5vh;
     margin: 10px;
     color: white;
     background-color: cornflowerblue;
