@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: serif;
+}
+input#searchWindow {
+    width: 50%;
+    height: 10vh;
+    margin: 10px;
+}
+::-webkit-input-placeholder {
+    color: gray;
+    text-align: center; 
+}
+
+.shortcutDiscription {
+    font-size: 15px;
+}
+.shortcuts {
+    font-size: 20px;
+}
+button#btn {
+    width: 30%;
+    height: 10vh;
+    margin: 10px;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 15px;
+}
