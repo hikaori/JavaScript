@@ -2,10 +2,12 @@ body {
     text-align: center;
     font-family: serif;
 }
+ul{
+   list-style:none; 
+}
 input#searchWindow {
     width: 50%;
     height: 3vh;
-    margin: 10px;
 }
 ::-webkit-input-placeholder {
     color: gray;
@@ -16,12 +18,79 @@ input#searchWindow {
     font-size: 15px;
 }
 .shortcuts {
-    font-size: 20px;
+    font-size: 15px;
+    width: 20%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    list-style: none;
 }
-button#btn {
+button#btnSearch {
+    width: 10%;
+    height: 4vh;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 15px;
+}
+button#btnAdd {
     width: 30%;
     height: 5vh;
     margin: 10px;
+    color: white;
+    background-color: cornflowerblue;
+    font-size: 15px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-content ul {
+    width: 40%;
+    margin: auto;
+}
+.modal-content input{
+    width: 100%;
+    margin: 3px;
+}
+button#create {
+    width: 30%;
+    height: 5vh;
+    margin: 10px;
+    margin-left: 5%;
     color: white;
     background-color: cornflowerblue;
     font-size: 15px;
